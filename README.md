@@ -1,2 +1,2 @@
 # Toxic-Ip
-Ip lookup and ip grabber in python
+Toxic ip is a simple ip lookup and grabber made in python-3
