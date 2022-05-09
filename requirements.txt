@@ -1,5 +1,4 @@
 colorama
 pystyle
 requests
-json
 termcolor
