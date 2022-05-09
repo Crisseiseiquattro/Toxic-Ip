@@ -26,7 +26,7 @@ scelta = input(Fore.RED + ">$" + Fore.RESET)
 
 if scelta == 'iplookup':
     scelta2 = input(Fore.RED + "[Insert IP]>" + Fore.RESET)
-    apikey = "0e2c5b86300345bda30926b4c465f2c2"
+    apikey = "YOUR API KEY HERE"
 
     response = requests.get('https://ipgeolocation.abstractapi.com/v1/?api_key=' + apikey + '&ip_address=' + scelta2)
     result = json.loads(response.content)
